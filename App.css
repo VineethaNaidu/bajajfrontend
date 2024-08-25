@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+  width: 80%; /* Match the width of input and select */
+  max-width: 600px;
+  font-size: 16px;
+}
+
+input {
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button,
+.Select-container {
+  width: 80%; /* Same width for button and select */
+  max-width: 600px; /* Match max-width of input */
+  margin: 10px auto; /* Centering and margin for vertical spacing */
+  padding: 10px; /* Same padding for height consistency */
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in width and height */
+}
+
+button {
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: block; /* Ensures the button takes up the full width */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.Select-container {
+  background-color: #fff; /* White background for select */
+  border: 1px solid #ccc; /* Border to match the look */
+  display: block;
+}
+
+.error {
+  color: black;
+  margin-top: 20px;
+}
+
+pre {
+  text-align: left;
+  display: inline-block;
+  white-space: pre-wrap;
+  margin-top: 20px;
+}
